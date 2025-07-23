@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: thelook_ecommerce
+    database: bigquery-public-data
+    tables:
+      - name: orders
+        description: "Orders placed by customers"
+      - name: order_items
+        description: "Items included in each order"
+      - name: products
+        description: "Products available for purchase"
+      - name: users
+        description: "Customers who have placed orders"
+      - name: inventory_items
+        description: "Inventory items for products"
